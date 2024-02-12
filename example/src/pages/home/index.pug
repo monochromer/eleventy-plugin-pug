@@ -1,0 +1,15 @@
+---
+title: 'Hello, world!'
+permalink: '/'
+layout: 'base'
+---
+h1 #{title}
+
+main
+
+  pre #{JSON.stringify(eleventy, null, 2)}
+
+  :changeCase(type="lower"):slugify()
+    Hello, world!
+
+  pre #{functions.changeCase(title, { type: 'upper' })}

@@ -1,0 +1,12 @@
+-
+  var items = [
+    ['home', '/'],
+    ['about', '/about/'],
+  ];
+header.header
+  nav
+    ul
+      each item in items
+        li
+          a(href=item[1]) #{item[0]}
+

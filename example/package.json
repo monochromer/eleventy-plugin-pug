@@ -1,0 +1,6 @@
+{
+  "name": "eleventy-plugin-pug-example",
+  "scripts": {
+    "start": "eleventy --watch --serve --incremental"
+  }
+}
